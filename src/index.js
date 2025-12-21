@@ -2,7 +2,11 @@ import prompt from 'prompt';
 import mainPrompt from './prompts/prompt-main.js';
 
 async function main() {
-    console.log("oi");
+    prompt.get(mainPrompt, (err, choice) => {
+        if (choice.select == 1) console.log("Escolheu o QRCode");
+        if (choice.select == 2) console.log("Escolheu o password");
+    });
+    prompt.start();
 }
 
 main();
