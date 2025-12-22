@@ -5,3 +5,8 @@ Please remember to use a Node.js version that supports the parameter '--env-file
 ```
 nvm install 20
 ```
+ And used this Node.js version with the command:
+
+ ```
+ nvm use 20
+ ```
