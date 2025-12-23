@@ -17,6 +17,3 @@ async function main() {
 }
 
 main();
-
-
-// Current video: Password Generator
